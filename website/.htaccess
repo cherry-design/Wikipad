@@ -1,0 +1,15 @@
+DirectoryIndex index.php
+Options FollowSymLinks
+AddDefaultCharset utf-8
+RewriteEngine Off
+
+# Отключаем обработку для изображений и загруженных файлов
+RewriteRule ^files/.*$ - [L]
+
+# Обрабатываем запрос первой страницы
+# RewriteRule ^$ /blog.php [QSA]
+# RewriteRule ^$ /pages.php?id=index [QSA]
+
+# Обрабатываем записи блога и статические страницы 
+RewriteRule ^([0-9]{2}-[0-9]{2}-[0-9]{4})\.htm$ /blog.php?id=$1 [QSA]
+RewriteRule ^([a-z0-9_-]+)\.htm$ /pages.php?id=$1 [QSA]

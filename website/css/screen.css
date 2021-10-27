@@ -1,0 +1,495 @@
+/*******************************************************************************
+ *                                                                             *
+ *   Простой онлайн блокнот "Wikipad" // Таблица стилей для экрана             *
+ *   ----------------------------------------------------------------------    *
+ *   Copyright (C) 1998-2021 Studio "Cherry-Design"                            *
+ *   URL: https://www.cherry-design.ru/                                        *
+ *   E-mail: mike@cherry-design.ru                                             *
+ *                                                                             *
+ *******************************************************************************/
+
+/* Общие настройки стиля
+-------------------------------------------------------------------------------*/
+
+body {
+    width: 800px;
+    margin: 0px auto;
+    padding: 0px;
+    font-family: "Arial", "Verdana", "Helvetica", "sans-serif";
+    font-size: 10pt;
+    background: #202020 url("../pic/background.gif") left top repeat-x;
+}
+
+/* Заголовок сайта
+-------------------------------------------------------------------------------*/
+
+#header {
+    width: 800px;
+    height: 87px;
+    background: #808080 url("../pic/header.jpg") left top no-repeat;
+}
+
+#header h1, #header p {
+    display: none;
+}
+
+/* Основное меню
+-------------------------------------------------------------------------------*/
+
+#main_menu {
+    width: 800px;
+    position: absolute;
+    padding: 0px;
+    margin: -74px 0px 0px -31px;
+    font-family: "Tahoma", "Verdana", "Helvetica", "sans-serif";
+    font-size: 8pt;
+    text-align: right;
+    color: #ffffff;
+}
+
+#main_menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    float: right;
+}
+
+#main_menu ul li {
+    margin-left: 9px;
+    float: left;
+}
+
+#main_menu a {
+    padding: 2px 5px 4px 5px;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#main_menu a:hover {
+    padding: 1px 4px 3px 4px;
+    border: #ffffff 1px dotted;
+}
+
+/* Меню пользователя
+-------------------------------------------------------------------------------*/
+
+#user_menu {
+    width: 800px;
+    position: absolute;
+    padding: 0px;
+    margin: -16px 0px 0px -25px;
+    font-family: "Tahoma", "Verdana", "Helvetica", "sans-serif";
+    font-size: 8pt;
+    text-align: right;
+    color: #ffffff;
+}
+
+#user_menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+#user_menu ul li {
+    padding-right: 10px;
+    display: inline;
+}
+
+#user_menu a {
+    color: #a8a8a8;
+    text-decoration: none;
+}
+
+#user_menu a:hover {
+    text-decoration: underline;
+} 
+
+/* Основное содержание
+-------------------------------------------------------------------------------*/
+
+#content {
+    padding: 15px 24px 35px 24px;
+    margin: 0px;
+    font-family: "Arial", "Tahoma", "Verdana", "Helvetica", "sans-serif";
+    font-size: 10pt;
+    background: #ffffff url("../pic/content.jpg") left bottom no-repeat;
+    color: #000000;
+    min-height: 300px;
+    _height: 300px;
+}
+
+#content h1 {
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    font-family: "Tahoma", "Verdana", "Helvetica", "sans-serif";
+    font-size: 20pt;
+    font-weight: normal;
+    clear: both;
+}
+
+#content h2 {
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    font-family: "Tahoma", "Verdana", "Helvetica", "sans-serif";
+    font-size: 15pt;
+    font-weight: normal;
+    clear: both;
+}
+
+#content h3 {
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+#content h4 {
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+#content h5 {
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+#content h6 {
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+#content hr {
+    padding: 20px 0px 0px 0px;
+    margin: 5px 0px 25px 0px;
+    _margin: 18px 0px;
+    border-style: none;
+    border-bottom: #000000 1px dotted;
+    display: block;
+    height: 1px;
+    clear: both;
+}
+
+#content ul, #content ol {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#content dl {
+    padding: 0px;
+    margin: 18px 0px -5px 0px;
+}
+
+#content dl dt {
+    font-weight: bold;
+}
+
+#content dl dd {
+    padding: 0px 0px 15px 0px;
+}
+
+#content p {
+    margin: 12px 0px 8px 0px;
+    padding: 0px;
+}
+
+#content pre {
+    background-color: #f0f0f0;
+    border-top: 1px #c0c0c0 solid;
+    padding: 8px;
+    margin: 18px 0px;
+}
+
+#content address {
+    margin: 4px 0px 20px 0px;
+    font-style: normal;
+    color: #a0a0a0;
+}
+
+#content .error {
+    background-color: #c00000;
+    padding: 0px 5px;
+    color: #ffffff;
+}
+
+/* Основное содержание (ссылки)
+-------------------------------------------------------------------------------*/
+
+#content a {
+    color: #35880C;
+}
+
+#content a.nopage {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+#content a:visited {
+    color: #375EC0;
+}
+
+#content a:visited:hover {
+    color: #35880C;
+}
+
+/* Основное содержание (классы выравнивания)
+-------------------------------------------------------------------------------*/
+
+#content .float_left {
+    float: left;
+    clear: left;
+    margin: 5px 15px 10px 0px;
+}
+
+#content .float_right {
+    float: right;
+    clear: right;
+    margin: 5px 0px 5px 10px;
+}
+
+#content .left {
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+#content .right {
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+#content .center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Основное содержание (таблицы)
+-------------------------------------------------------------------------------*/
+
+#content table {
+    padding: 0px;
+    margin: 0px;
+    border-collapse: collapse;
+}
+
+#content table caption {
+    padding: 5px 0px 10px 0px;
+    margin: 0px;
+    text-align: left;
+    font-style: italic;
+}
+
+#content table tr.highlight {
+    background-color: #f0f0f0;
+}
+
+#content table th {
+    padding: 2px 5px;
+    background-color: #8BABD5;
+    color: #ffffff;
+    border: 1px #666666 solid;
+}
+
+#content table td {
+    padding: 2px 5px;
+    border: 1px #999999 solid;
+}
+
+/* Основное содержание (изображения)
+-------------------------------------------------------------------------------*/
+
+#content img {
+    display: block;
+}
+
+#content .image_frame {
+    display: block;
+    margin: 0px;
+    padding: 5px;
+    border: 1px #666666 solid;
+}
+
+#content .image_frame_text {
+    display: block;
+    text-align: left;
+    padding: 5px 0px 0px 0px;
+}
+
+#content .center img {
+    margin: 12px auto;
+}
+
+#content .center .image_frame {
+    margin: 12px auto;
+}
+
+#content .center .image_frame img {
+    margin: 0px auto;
+}
+
+/* Основное содержание (формы)
+-------------------------------------------------------------------------------*/
+
+#content form  {
+    margin: 0px;
+    padding: 0px;
+}
+
+#content form dl {
+    margin: 26px 0px 20px 120px;
+    padding: 0px;
+}
+
+#content form dl dt {
+    position: absolute;
+    margin: 0px 0px 0px -120px;
+    padding: 5px 0px;
+    font-weight: normal;
+}
+
+#content form dl dd {
+    margin: 2px 0px 4px 0px;
+    padding: 2px 0px;
+}
+
+#content form ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 15px 20px;
+}
+
+#content form textarea {
+    margin: 7px 0px;
+    width: 740px;
+    padding: 2px 2px;
+}
+
+#content form p {
+    margin: 26px 0px 20px 0px;
+    padding: 0px;
+}
+
+#content form p.button {
+    margin: 0px 0px 0px 120px;
+    padding: 0px;
+}
+
+/* Основное содержание (панель инструментов редактирования)
+------------------------------------------------------------------------------*/
+#content form p.toolbar {
+    display: block;
+    height: 24px;
+    margin-top: 20px;
+    margin-bottom: -30px;
+    padding: 0px;
+    background: #ffffff url("../pic/toolbar.gif") top left no-repeat;
+}
+
+#content form p.toolbar a {
+    display: block;
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+
+#content form p.toolbar a.separator {
+    margin-right: 8px;
+}
+
+#content form p.toolbar a span {
+    display: none;
+}
+
+/* Основное содержание (календарь блога)
+------------------------------------------------------------------------------*/
+
+#content ul.calendar {
+    width: 100%;
+    list-style-type: none;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+
+#content ul.calendar li {
+    width: 187px;
+    height: 187px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+#content ul.calendar li table {
+    width: 155px;
+    margin: 0px 0px 0px 18px;
+}
+
+#content ul.calendar li table caption {
+    text-align: left;
+    font-style: italic;
+}
+
+#content ul.calendar li table th,
+#content ul.calendar li table td {
+    margin: 0px;
+    padding: 1px;
+    text-align: center;
+    font-weight: normal;
+}
+
+#content ul.calendar li table td.weekday {
+    background-color: #f0f0f0;
+}
+
+#content ul.calendar li table th a,
+#content ul.calendar li table th a:hover,
+#content ul.calendar li table th a:visited {
+    color: #ffffff;
+}
+
+/* Основное содержание (теги)
+------------------------------------------------------------------------------*/
+
+#content .tags {
+    color: #a0a0a0;
+}
+
+#content .tags a {
+    color: #a0a0a0;
+}
+
+/* Основное содержание (навигация)
+------------------------------------------------------------------------------*/
+
+#content .navigation {
+    margin: 0px;
+    padding: 15px 0px 0px 0px;
+    clear: both;
+}
+
+/* Копирайты
+-------------------------------------------------------------------------------*/
+
+#copyright {
+    width: 800px;
+    height: 47px;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Tahoma", "Verdana", "Helvetica", "sans-serif";
+    font-size: 8pt;
+    background: #808080 url("../pic/copyright.jpg") left top no-repeat;
+    color: #ffffff;
+    clear: both;
+}
+
+#copyright ul {
+    margin: 0px;
+    padding: 5px 32px 0px 0px;
+    list-style-type: none;
+    text-align: right;
+}
+
+#copyright a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#copyright a:hover {
+    text-decoration: underline;
+}

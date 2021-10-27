@@ -1,0 +1,248 @@
+/*******************************************************************************
+ *                                                                             *
+ *   Простой онлайн блокнот "Wikipad" // Таблица стилей для печати             *
+ *   ----------------------------------------------------------------------    *
+ *   Copyright (C) 1998-2021 Studio "Cherry-Design"                            *
+ *   URL: https://www.cherry-design.ru/                                        *
+ *   E-mail: mike@cherry-design.ru                                             *
+ *                                                                             *
+ *******************************************************************************/
+
+/* Общие настройки стиля
+-------------------------------------------------------------------------------*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 11pt;
+}
+
+/* Основное содержание
+-------------------------------------------------------------------------------*/
+
+#content h1 {
+    line-height: 100%;
+    margin: 0px;
+    clear: both;
+}
+
+#content h2 {
+    margin: 0px;
+    clear: both;
+}
+
+#content dl dt {
+    font-weight: bold;
+}
+
+#content hr {
+    padding: 20px 0px 0px 0px;
+    margin: 5px 0px 25px 0px;
+    _margin: 18px 0px;
+    border-style: none;
+    border-bottom: #000000 1px dotted;
+    display: block;
+    height: 1px;
+    clear: both;
+}
+
+#content pre {
+    border: 1px #c0c0c0 solid;
+    padding: 8px;
+}
+
+#content address {
+    margin: 5px 0px 20px 0px;
+}
+
+/* Основное содержание (классы выравнивания)
+-------------------------------------------------------------------------------*/
+
+#content .float_left {
+    float: left;
+    clear: left;
+    margin: 5px 15px 10px 0px;
+}
+
+#content .float_right {
+    float: right;
+    clear: right;
+    margin: 5px 0px 5px 10px;
+}
+
+#content .left {
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+#content .right {
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+#content .center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Основное содержание (таблицы)
+-------------------------------------------------------------------------------*/
+
+#content table {
+    border-collapse: collapse;
+}
+
+#content table caption {
+    padding: 5px 0px 10px 0px;
+    margin: 0px;
+    text-align: left;
+    font-style: italic;
+}
+
+#content table tr.highlight {
+    background-color: #f0f0f0;
+}
+
+#content table th {
+    padding: 2px 5px;
+    color: #ffffff;
+    border: 1px #666666 solid;
+}
+
+#content table td {
+    padding: 2px 5px;
+    border: 1px #999999 solid;
+}
+
+/* Основное содержание (изображения)
+-------------------------------------------------------------------------------*/
+
+#content img {
+    display: block;
+}
+
+#content .image_frame {
+    display: block;
+    margin: 0px;
+    padding: 5px;
+    border: 1px #666666 solid;
+}
+
+#content .image_frame_text {
+    display: block;
+    text-align: left;
+    padding: 5px 0px 0px 0px;
+}
+
+#content .center img {
+    margin: 12px auto;
+}
+
+#content .center .image_frame {
+    margin: 12px auto;
+}
+
+#content .center .image_frame img {
+    margin: 0px auto;
+}
+
+/* Основное содержание (формы)
+-------------------------------------------------------------------------------*/
+
+#content form  {
+    margin: 0px;
+    padding: 0px;
+}
+
+#content form dl {
+    margin: 26px 0px 20px 120px;
+    padding: 0px;
+}
+
+#content form dl dt {
+    position: absolute;
+    margin: 0px 0px 0px -120px;
+    padding: 5px 0px;
+    font-weight: normal;
+}
+
+#content form dl dd {
+    margin: 2px 0px 4px 0px;
+    padding: 2px 0px;
+}
+
+#content form ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 15px 20px;
+}
+
+#content form textarea {
+    margin: 7px 0px;
+    width: 740px;
+    padding: 2px 2px;
+}
+
+#content form p.button {
+    margin: 0px 0px 0px 120px;
+    padding: 0px;
+}
+
+/* Основное содержание (панель инструментов редактирования)
+------------------------------------------------------------------------------*/
+#content form p.toolbar {
+    display: none;
+}
+
+/* Основное содержание (календарь блога)
+------------------------------------------------------------------------------*/
+
+#content ul.calendar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#content ul.calendar li {
+    width: 200px;
+    height: 190px;
+    margin: 1px;
+    padding: 0px;
+    float: left;
+}
+
+#content ul.calendar li table th,
+#content ul.calendar li table td {
+    margin: 0px;
+    padding: 1px;
+    text-align: center;
+}
+
+/* Основное содержание (теги)
+------------------------------------------------------------------------------*/
+
+#content .tags {
+    color: #999999;
+}
+
+#content .tags a {
+    color: #999999;
+    text-decoration: none;
+}
+
+/* Основное содержание (навигация)
+------------------------------------------------------------------------------*/
+
+#content .navigation {
+    margin: 0px;
+    padding: 15px 0px 0px 0px;
+    clear: both;
+}
+
+/* Отключаем ненужные блоки
+-------------------------------------------------------------------------------*/
+
+#header, #main_menu, #user_menu, #copyright {
+    display: none;
+}
