@@ -1,2 +1,2 @@
 .DS_Store
-website/temp/search_index.dat
+website/temp/*.dat
