@@ -1,11 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="ru">
 <head>
 <title>{WEBSITE_WORDS} &quot;{WEBSITE_TITLE}&quot; - {TITLE}</title>
 
-<!-- Web-design (C) 1998-2021 Mike Melnikov | mike@cherry-design.ru -->
-<!-- Web-design (C) 1998-2021 Cherry-Design | https://www.cherry-design.ru/ -->
+<!-- Web-design (C) 1998-2022 Mike Melnikov | mike@cherry-design.com -->
+<!-- Web-design (C) 1998-2022 Cherry-Design | https://www.cherry-design.com/ -->
 
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta http-equiv="сontent-language" content="ru" />
@@ -48,8 +47,8 @@
 <!-- Копирайты / начало -->
 <div id="copyright">
 <ul>
-<li><a href="https://software.cherry-design.ru/">Простой онлайн блокнот &quot;Wikipad&quot; {VERSION}</a></li>
-<li>Design &amp; Programming &copy; 2007-2021 <a href="https://www.cherry-design.ru/">Studio &quot;Cherry-Design&quot;</a></li>
+<li><a href="https://github.com/cherry-design/Wikipad">Простой онлайн блокнот &quot;Wikipad&quot; {VERSION}</a></li>
+<li>Design &amp; Programming &copy; 2007-2022 <a href="https://www.cherry-design.com/">Studio &quot;Cherry-Design&quot;</a></li>
 </ul>
 </div>
 <!-- Копирайты / конец -->

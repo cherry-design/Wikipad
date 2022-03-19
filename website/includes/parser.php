@@ -4,9 +4,9 @@
 //                                                                           //
 //   Простой онлайн блокнот "Wikipad" // Парсер Wiki-разметки                //
 //   ----------------------------------------------------------------------  //
-//   Copyright (C) 1998-2021 Studio "Cherry-Design"                          //
-//   URL: https://www.cherry-design.ru/                                      //
-//   E-mail: mike@cherry-design.ru                                           //
+//   Copyright (C) 1998-2022 Studio "Cherry-Design"                          //
+//   URL: https://www.cherry-design.com/                                     //
+//   E-mail: mike@cherry-design.com                                          //
 //                                                                           //
 ///////////////////////////////////////////////////////////////////////////////
 
